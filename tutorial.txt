@@ -1,0 +1,25 @@
+Ambiente de Trabalho: Virtualenv
+
+Para CRIAR ambiente virtual: virtualenv nome_da_virtualenv
+
+Para ATIVAR ambiente virtual: 
+
+WINDOWS: nome_da_virtualenv/Script/activate
+UBUNTU: souce nome_da_virtualenv/bin/activate
+
+Para DESATIVAR ambiente virtual:
+
+WINDOWS: deactivate
+LINUX: deactivate
+
+__________________________________________________________
+
+Aplicativo de suporte de pacotes: PIP
+
+Para INSTALAR pacotes: pip install nome_do_pacote
+
+Para INSTALAR pacotes a partir de um ARQUIVO de requerimentos.txt: pip install -r requirements.txt
+
+Para VERIFICAR instalações: pip freeze
+
+Para SALVAR arquivo com as instalações requeridas: pip freeze > requirements.txt
